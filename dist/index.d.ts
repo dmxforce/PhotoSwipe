@@ -14,6 +14,10 @@ declare namespace PhotoSwipe {
          */
         src: string;
         /**
+         * The original url of this image, src could be a calculated blob.
+         */
+        originalSrc: string;
+        /**
          * The width of this image.
          */
         w: number;
